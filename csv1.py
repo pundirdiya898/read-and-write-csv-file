@@ -1,5 +1,5 @@
 import csv
-
+# to perform write operation in csv file
 with open('employee_file.csv', 'w', newline='') as csvfile:
 	employee_writer = csv.writer(csvfile)
 	employee_writer.writerow(['name', 'department', 'started'])
