@@ -1,5 +1,5 @@
 import csv
-
+# performing read operation with csv file and then print
 with open('employee_file.csv') as csvfile:
 	csv_reader = csv.reader(csvfile, delimiter=',')
 	line_count = 0
